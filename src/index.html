@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="stylesheet" href="./ecommerce-product.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+    <main class="main-container-page">
+      <header class="header">
+        <div class="header-left">
+
+          <button class="burger-menu">
+            <img src="../images/icon-menu.svg" alt="Menu Icon" class="menu-icon">
+          </button>
+
+          <img 
+            src="../images/logo.svg" 
+            alt="Sneakers logo"
+            class="header-logo"
+          >
+
+          <div class="overlay"></div>
+      
+          <nav class="navigation">
+            <button class="close-menu">
+              <img src="../images/icon-close.svg" alt="CloseMenu Icon" class="close-icon">
+            </button>
+
+            <ul class="navbar">
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-right">
+          <button class="shopping-cart-btn">
+            <img src="../images/icon-cart.svg" alt="Shopping Cart" class="cart">
+          </button>
+
+          <img 
+            src="../images/image-avatar.png" 
+            alt="User Profile" 
+            class="avatar"
+          >
+        </div>
+      </header>
+
+      <section class="product-container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- product gallery -->
+        <div class="product-gallery">
+          <figure class="main-image">
+            <button class="slider-btn prev">
+              <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.06067 1.06067L6.77495 6.77495L1.06067 12.4892" stroke="#1D2026" stroke-width="3"/>
+              </svg>
+            </button>
+            
+            <img
+              src="../images/image-product-1.jpg" 
+              alt="Product One" 
+              id="mainProductImage"
+            >
+
+            <button class="slider-btn next">
+              <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.06067 1.06067L6.77495 6.77495L1.06067 12.4892" stroke="#1D2026" stroke-width="3"/>
+              </svg>
+            </button>
+          </figure>
+
+          <!-- product thumbnail -->
+          <div class="product-thumbnail">
+            <button class="thumb active" data-image="../images/image-product-1.jpg">
+              <img 
+                src="../images/image-product-1-thumbnail.jpg" 
+                alt="">
+            </button>
+
+            <button class="thumb" data-image="../images/image-product-2.jpg">
+              <img 
+                src="../images/image-product-2-thumbnail.jpg" 
+                alt="">
+            </button>
+
+            <button class="thumb" data-image="../images/image-product-3.jpg">
+              <img 
+                src="../images/image-product-3-thumbnail.jpg" 
+                alt="">
+            </button>
+
+            <button class="thumb" data-image="../images/image-product-4.jpg">
+              <img 
+                src="../images/image-product-4-thumbnail.jpg" 
+                alt="">
+            </button>
+          </div>
+        </div>
+
+        <!-- lightbox -->
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-overlay">
+                <button class="close-lightbox">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 2.85714L17.1429 0L10 7.14286L2.85714 0L0 2.85714L7.14286 10L0 17.1429L2.85714 20L10 12.8571L17.1429 20L20 17.1429L12.8571 10L20 2.85714Z" fill="white"/>
+                  </svg>
+                </button>
+
+                <figure class="lightbox-image">
+                    <button class="slider-btn-lightbox lightbox-prev">
+                      <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.8356 1.06067L2.12132 6.77495L7.8356 12.4892" stroke="#1D2026" stroke-width="3"/>
+                      </svg>
+                    </button>
+
+                    <img
+                        src="../images/image-product-1.jpg"
+                        alt="Product One"
+                        id="lightboxMainImage"
+                    >
+
+                    <button class="slider-btn-lightbox lightbox-next">
+                      <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.06067 1.06067L6.77495 6.77495L1.06067 12.4892" stroke="#1D2026" stroke-width="3"/>
+                      </svg>
+                    </button>
+                </figure>
+                <!-- product thumbnail -->
+                <div class="product-thumbnail">
+                  <button class="thumb active" data-image="../images/image-product-1.jpg">
+                    <img 
+                      src="../images/image-product-1-thumbnail.jpg" 
+                      alt="">
+                  </button>
+    
+                  <button class="thumb" data-image="../images/image-product-2.jpg">
+                    <img 
+                      src="../images/image-product-2-thumbnail.jpg" 
+                      alt="">
+                  </button>
+    
+                  <button class="thumb" data-image="../images/image-product-3.jpg">
+                    <img 
+                      src="../images/image-product-3-thumbnail.jpg" 
+                      alt="">
+                  </button>
+    
+                  <button class="thumb" data-image="../images/image-product-4.jpg">
+                    <img 
+                      src="../images/image-product-4-thumbnail.jpg" 
+                      alt="">
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- product details -->
+        <div class="product-details">
+          <p class="sneaker-company">Sneaker Company</p>
+          <h1 class="product-header">Fall Limited Edition Sneakers</h1>
+
+          <p class="product-details-txt">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p> 
+
+          <div class="pricing">
+            <p class="discounted-price">$125.00</p>
+            <p class="discount-percentage">50%</p>
+          </div>
+
+          <p class="original-price">$250.00</p>
+
+          <div class="purchase-controls">
+            <div class="quantity-container">
+              <img src="../images/icon-minus.svg" alt="">
+              <span class="quantity-txt">0</span>
+              <img src="../images/icon-plus.svg" alt="">
+            </div>
+
+            <button class="add-to-cart-btn">
+              <img src="../images/cart-black.png" alt="">
+              <p>Add to cart</p>
+            </button>
+          </div>
+        </div>
+      
+      </section>
+    </main>
+  <script src="./ecommerce-product.js"></script>
+</body>
+</html>
