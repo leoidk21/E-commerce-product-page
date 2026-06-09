@@ -27,7 +27,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: (https://leoidk21.github.io/E-commerce-product-page/)
+- Solution URL: (https://github.com/leoidk21/E-commerce-product-page)
 - Live Site URL: (https://leoidk21.github.io/E-commerce-product-page/)
 
 ---
