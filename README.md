@@ -27,8 +27,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here]()
-- Live Site URL: [Add your deployed site URL here]()
+- Solution URL: (https://leoidk21.github.io/E-commerce-product-page/)
+- Live Site URL: (https://leoidk21.github.io/E-commerce-product-page/)
 
 ---
 
